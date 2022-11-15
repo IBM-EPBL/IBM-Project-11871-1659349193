@@ -417,16 +417,20 @@ def update(id):
      
       
 
-            
- 
-         
+    
+    
+    
+    
+    
+    
+    
+    
     
             
  #limit
 @app.route("/limit" )
 def limit():
        return redirect('/limitn')
-
 @app.route("/limitnum" , methods = ['POST' ])
 def limitnum():
      if request.method == "POST":
